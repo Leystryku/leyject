@@ -41,12 +41,11 @@
   </ImportGroup>
   <PropertyGroup Label="UserMacros" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
-    <OutDir>C:/</OutDir>
-    <TargetName>patchnos</TargetName>
+    <OutDir>$(SolutionDir)$(Configuration)\</OutDir>
+    <TargetName>leyject</TargetName>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
-    <OutDir>C:/</OutDir>
-    <TargetName>patchnos</TargetName>
+    <TargetName>leyject</TargetName>
   </PropertyGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
     <ClCompile>
